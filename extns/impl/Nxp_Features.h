@@ -63,9 +63,9 @@ extern tNfc_featureList nfcFL;
     } else if (chipType == pn67T) {                                          \
       nfcFL.chipType = pn551;                                                \
     } else if (chipType == pn66T) {                                          \
-      nfcFL.chipType = pn548C2;                                                \
+      nfcFL.chipType = pn548C2;                                              \
     } else if (chipType == pn65T) {                                          \
-      nfcFL.chipType = pn547C2;                                                \
+      nfcFL.chipType = pn547C2;                                              \
     }                                                                        \
       CONFIGURE_FEATURELIST_NFCC(chipType)                                   \
   }
